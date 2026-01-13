@@ -34,7 +34,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
     @script(
         # Translators: Description of the command.
         description=_("Announces whether the active window is minimized, maximized, or normal."),
-        gesture="kb:NVDA+control+shift+s",
+        gesture="kb:NVDA+windows+space",
         speakOnDemand=True
     )
     def script_announceWindowState(self, gesture):
